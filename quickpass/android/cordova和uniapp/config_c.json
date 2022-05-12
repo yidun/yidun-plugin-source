@@ -25,15 +25,18 @@
   "privacyMarginRight": 40,
   "isPrivacyTextGravityCenter": false,
   "checkBoxGravity": 48,
+  "privacyTextMarginLeft": 8,
+  "checkBoxWith": 20,
+  "checkBoxHeight": 20,
   "checkedImageName": "static/checkedImageName.png",
   "unCheckedImageName": "static/unCheckedImageName.png",
   "privacyTextStart": "我已阅读并同意",
   "protocolText": "用户协议",
-  "protocolLink": "https://www.baidu.com",
   "privacyTextEnd": "",
   "isHidePrivacySmh": true,
   "protocolNavTitle": "易盾一键登录SDK服务条款",
   "protocolNavColor": "#FFFFFF",
+  "isShowPrivacyDialog": false,
   "widgets": [
     {
       "viewId": "view_title",
@@ -47,59 +50,6 @@
       "font": 16,
       "positionType": 1,
       "backgroundImgPath": "static/yidun_logo.png"
-    },
-    {
-      "viewId": "view_tips",
-      "type": "TextView",
-      "left": 110,
-      "top": 350,
-      "right": 0,
-      "bottom": 0,
-      "width": 150,
-      "height": 50,
-      "clickable": false,
-      "text": "-- 其他方式登录 --",
-      "font": 16,
-      "textColor": "#797894"
-    },
-    {
-      "viewId": "wx_button",
-      "type": "Button",
-      "text": "",
-      "left": 110,
-      "top": 380,
-      "right": 0,
-      "bottom": 0,
-      "width": 32,
-      "height": 32,
-      "clickable": true,
-      "backgroundImgPath": "static/weixin.png"
-    },
-    {
-      "viewId": "qq_button",
-      "type": "Button",
-      "text": "",
-      "left": 162,
-      "top": 380,
-      "right": 0,
-      "bottom": 0,
-      "width": 32,
-      "height": 32,
-      "clickable": true,
-      "backgroundImgPath": "static/qq.png"
-    },
-    {
-      "viewId": "wb_button",
-      "type": "Button",
-      "text": "",
-      "left": 214,
-      "top": 380,
-      "right": 0,
-      "bottom": 0,
-      "width": 32,
-      "height": 32,
-      "clickable": true,
-      "backgroundImgPath": "static/weibo.png"
     }
   ]
 }

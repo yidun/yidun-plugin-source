@@ -25,42 +25,31 @@
   "privacyMarginRight": 40,
   "isPrivacyTextGravityCenter": false,
   "checkBoxGravity": 48,
+  "privacyTextMarginLeft": 8,
+  "checkBoxWith": 20,
+  "checkBoxHeight": 20,
   "checkedImageName": "static/checkedImageName.png",
   "unCheckedImageName": "static/unCheckedImageName.png",
   "privacyTextStart": "我已阅读并同意",
   "protocolText": "用户协议",
-  "protocolLink": "https://www.baidu.com",
   "privacyTextEnd": "",
   "isHidePrivacySmh": true,
   "protocolNavTitle": "易盾一键登录SDK服务条款",
   "protocolNavColor": "#FFFFFF",
+  "isShowPrivacyDialog": false,
   "widgets": [
-    {
-      "viewId": "view_title",
-      "type": "TextView",
-      "top": 10,
-      "left": 0,
-      "right": 10,
-      "width": 20,
-      "height": 20,
-      "text": "",
-      "font": 16,
-      "positionType": 1,
-      "backgroundImgPath": "static/yidun_logo.png"
-    },
     {
       "viewId": "view_tips",
       "type": "TextView",
       "left": 110,
       "top": 350,
-      "right": 0,
-      "bottom": 0,
       "width": 150,
       "height": 50,
       "clickable": false,
       "text": "-- 其他方式登录 --",
       "font": 16,
-      "textColor": "#797894"
+      "textColor": "#797894",
+      "positionType": 0
     },
     {
       "viewId": "wx_button",
@@ -68,12 +57,11 @@
       "text": "",
       "left": 110,
       "top": 380,
-      "right": 0,
-      "bottom": 0,
       "width": 32,
       "height": 32,
       "clickable": true,
-      "backgroundImgPath": "static/weixin.png"
+      "backgroundImgPath": "static/weixin.png",
+      "positionType": 0
     },
     {
       "viewId": "qq_button",
@@ -81,12 +69,11 @@
       "text": "",
       "left": 162,
       "top": 380,
-      "right": 0,
-      "bottom": 0,
       "width": 32,
       "height": 32,
       "clickable": true,
-      "backgroundImgPath": "static/qq.png"
+      "backgroundImgPath": "static/qq.png",
+      "positionType": 0
     },
     {
       "viewId": "wb_button",
@@ -94,12 +81,11 @@
       "text": "",
       "left": 214,
       "top": 380,
-      "right": 0,
-      "bottom": 0,
       "width": 32,
       "height": 32,
       "clickable": true,
-      "backgroundImgPath": "static/weibo.png"
+      "backgroundImgPath": "static/weibo.png",
+      "positionType": 0
     }
   ]
 }
