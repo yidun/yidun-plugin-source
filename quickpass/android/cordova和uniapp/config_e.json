@@ -39,7 +39,6 @@
   "protocolNavColor": "#FFFFFF",
   "isShowPrivacyDialog": false,
   "isDialogMode": true,
-  "dialogWidth": 350,
   "dialogHeight": 400,
   "isBottomDialog": true,
   "isProtocolDialogMode": true
